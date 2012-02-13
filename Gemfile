@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.2'
 gem 'sqlite3', :require => 'sqlite3'
-gem 'ZenTest'
+
 gem 'spork', '~> 0.9.0.rc'
 
 group :development do
