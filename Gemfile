@@ -1,9 +1,8 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.2'
-
-
 gem 'spork', '~> 0.9.0.rc'
+get 'pg'
 
 group :development do
   gem 'sqlite3', :require => 'sqlite3'

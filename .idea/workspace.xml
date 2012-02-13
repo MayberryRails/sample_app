@@ -39,7 +39,7 @@
       <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="3" selection-start="37" selection-end="38" vertical-scroll-proportion="-1.2142857">
+            <state line="3" column="3" selection-start="37" selection-end="38" vertical-scroll-proportion="-1.2142857">
               <folding />
             </state>
           </provider>
@@ -48,7 +48,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="38" selection-start="205" selection-end="205" vertical-scroll-proportion="0.3090909">
+            <state line="7" column="7" selection-start="117" selection-end="117" vertical-scroll-proportion="0.18030304">
               <folding />
             </state>
           </provider>
@@ -723,14 +723,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="37" selection-end="38" vertical-scroll-proportion="-1.2142857">
+        <state line="3" column="3" selection-start="37" selection-end="38" vertical-scroll-proportion="-1.2142857">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="205" selection-end="205" vertical-scroll-proportion="0.3090909">
+        <state line="7" column="7" selection-start="117" selection-end="117" vertical-scroll-proportion="0.18030304">
           <folding />
         </state>
       </provider>
