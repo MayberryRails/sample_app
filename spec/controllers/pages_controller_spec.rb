@@ -32,6 +32,11 @@ describe PagesController do
       response.should have_selector("title",
                                     :content => "Ruby on Rails Tutorial Sample App | contact us")
     end
+
+    it "should have a non-blank body" do
+      get 'contact'
+      response.should_not =~ /<body>\s*<\/body>/
+    end
   end
 
   describe "GET 'about'" do
@@ -43,6 +48,11 @@ describe PagesController do
       get 'about'
       response.should have_selector("title",
                                     :content => "Ruby on Rails Tutorial Sample App | about us")
+    end
+
+    it "should have a non-blank body" do
+      get 'about'
+      response.should_not =~ /<body>\s*<\/body>/
     end
   end
 
