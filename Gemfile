@@ -1,7 +1,8 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.2'
-gem 'spork', '~> 0.9.0.rc'
+
+gem 'faster_require'
 
 group :development do
   gem 'sqlite3', :require => 'sqlite3'
@@ -15,6 +16,7 @@ group :test do
   gem 'autotest-growl'
   gem 'rspec-rails'
   gem 'webrat', '0.7.1'
+  gem 'spork', '0.9.0'
 end
 
 group :production do

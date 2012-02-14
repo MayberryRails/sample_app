@@ -1,3 +1,5 @@
+require 'rubygems'
+require 'faster_require'
 require 'spork'
 
 Spork.prefork do
