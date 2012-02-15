@@ -11,6 +11,7 @@ describe PagesController do
   describe "GET 'home'" do
     it "returns http success" do
       get 'home'
+      #noinspection RubyResolve
       response.should be_success
     end
 
@@ -29,6 +30,7 @@ describe PagesController do
   describe "GET 'contact'" do
     it "returns http success" do
       get 'contact'
+      #noinspection RubyResolve
       response.should be_success
     end
 
@@ -47,6 +49,7 @@ describe PagesController do
   describe "GET 'about'" do
     it "returns http success" do
       get 'about'
+      #noinspection RubyResolve
       response.should be_success
     end
     it "should have the right title" do
