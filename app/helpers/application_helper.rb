@@ -14,4 +14,8 @@ module ApplicationHelper
     image_tag("logo.png", :alt => "Missing Images App", :class => "round")
   end
 
+  def main_background
+    image_tag("bg_lite.jpg", :alt => "Background", :class => "main")
+  end
+
 end
